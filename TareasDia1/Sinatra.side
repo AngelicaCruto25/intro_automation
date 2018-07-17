@@ -1,0 +1,104 @@
+{
+  "id": "81b014ad-c2d7-4764-9b6b-df32900b580c",
+  "name": "Sinatra",
+  "url": "",
+  "tests": [{
+    "id": "f540ac5b-43bf-4ebf-9601-4096a0de2ed0",
+    "name": "crear song",
+    "commands": [{
+      "id": "dd440575-236e-4652-a982-54f86530d24f",
+      "comment": "",
+      "command": "open",
+      "target": "http://songs-by-sinatra.herokuapp.com/",
+      "value": ""
+    }, {
+      "id": "13623773-d1bb-4dc6-9f25-0b7c82eac209",
+      "comment": "",
+      "command": "click",
+      "target": "css=footer > a",
+      "value": ""
+    }, {
+      "id": "9285d67b-21e1-467c-ae1a-bae1a4503a60",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "value": "frank"
+    }, {
+      "id": "2ab0a2fa-8bc4-4ecd-bf56-b7ce71137acb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "value": "sinatra"
+    }, {
+      "id": "ffb7dab0-e195-4043-a16b-44071224897d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5cf6a41c-eb75-49a6-acc3-a7818b8174d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=a[title=\"Songs\"]",
+      "value": ""
+    }, {
+      "id": "27cc9d64-dd03-4017-a869-ee4c813a43e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=section.main.content > a",
+      "value": ""
+    }, {
+      "id": "43f2fce1-b4b5-4386-8f28-951259b8fbaf",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=title",
+      "value": "135,15"
+    }, {
+      "id": "ff87aaf6-9c53-4153-a75c-c1f572e3e64a",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "value": "la chona"
+    }, {
+      "id": "86731404-6c14-45b0-b1ae-6c5600d337e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=length",
+      "value": "1"
+    }, {
+      "id": "eea5b236-487d-4142-bbc0-de1d42d72cfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=released_on",
+      "value": "07/11/2018"
+    }, {
+      "id": "1634f2ae-1f7e-4645-a2ba-556e251b7b0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=lyrics",
+      "value": "contare una historia de una famosa persona..."
+    }, {
+      "id": "07d04628-8c36-45d8-a111-bd3f238cfe5e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input[type=\"submit\"]",
+      "value": "29,10"
+    }, {
+      "id": "499132a6-8ec1-436c-a461-570d48225857",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=section.main.content > h1",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3191e976-1fe0-4179-b97c-643277ba5c87",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f540ac5b-43bf-4ebf-9601-4096a0de2ed0"]
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
