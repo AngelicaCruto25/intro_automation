@@ -1,0 +1,38 @@
+{
+  "id": "3a3f4d73-7da5-4022-b0aa-72a0b7d9feac",
+  "name": "yahoo",
+  "url": "",
+  "tests": [{
+    "id": "73c89b34-2541-4e90-835c-868b7c5f8f4f",
+    "name": "busqueda",
+    "commands": [{
+      "id": "0fa48906-9e92-42b0-8741-78ed63b9d736",
+      "comment": "",
+      "command": "open",
+      "target": "https://espanol.yahoo.com/",
+      "value": ""
+    }, {
+      "id": "393326cc-46ec-4e73-97ef-fabffebcd36a",
+      "comment": "",
+      "command": "type",
+      "target": "id=uh-search-box",
+      "value": "juana la cubana"
+    }, {
+      "id": "bc762cd6-e6bd-41fe-834b-c451918cae0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=uh-search-button",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04efc078-5b8a-4202-8ed7-44de24a7805d",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["73c89b34-2541-4e90-835c-868b7c5f8f4f"]
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
