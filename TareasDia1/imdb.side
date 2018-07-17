@@ -1,0 +1,44 @@
+{
+  "id": "d18046c4-0a26-47a0-abe5-183b3371b0c0",
+  "name": "imdb",
+  "url": "",
+  "tests": [{
+    "id": "7dfed54b-baf6-4637-a628-8d43ef97516d",
+    "name": "buscar",
+    "commands": [{
+      "id": "01f9c53c-f2cf-4c01-ad66-b60367522b6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "value": ""
+    }, {
+      "id": "1c718ab1-4147-4374-80ed-75d9972d72b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=navbar-query",
+      "value": "luis miguel: la serie"
+    }, {
+      "id": "dcee24bb-5a56-429a-bff6-f0b337a3bb48",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.magnifyingglass.navbarSprite",
+      "value": ""
+    }, {
+      "id": "19bd3db8-d563-4dfd-8e04-7e0188c7fee2",
+      "comment": "",
+      "command": "click",
+      "target": "//a[contains(text(),'Marcela')]",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e6b6b51e-fdc4-4c6b-b820-8a8b8d5aa69c",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7dfed54b-baf6-4637-a628-8d43ef97516d"]
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
