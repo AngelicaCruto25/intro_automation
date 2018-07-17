@@ -1,0 +1,92 @@
+{
+  "id": "3bae495f-326a-441c-ae81-0933a8c07be5",
+  "name": "notificaciones",
+  "url": "http://www.facebook.com",
+  "tests": [{
+    "id": "4b96186c-56fb-4857-b151-b83043712c72",
+    "name": "facebook",
+    "commands": [{
+      "id": "95ee2ebd-d63b-40bf-b799-89087f7791bf",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "value": ""
+    }, {
+      "id": "e224387e-1a07-4d90-a3fa-fd6cf5de7f5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=a[name=\"notifications\"] > div._2n_9",
+      "value": ""
+    }, {
+      "id": "e74597dd-f1ef-470f-a972-bffdeba207e3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//*[.='Notificaciones']",
+      "value": "Notificaciones"
+    }, {
+      "id": "1326599a-6444-4bb7-bd01-9fdad6ad9670",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fbNotificationsFlyout > div.jewelFooter > a.seeMore > span",
+      "value": ""
+    }, {
+      "id": "96cda645-27e5-4bce-a8ac-d461e705cda2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2.uiHeaderTitle",
+      "value": ""
+    }, {
+      "id": "68acdc90-f4be-4ca4-a9c4-1859cc54b0f0",
+      "comment": "",
+      "command": "click",
+      "target": "//a[contains(text(),'Configuración de notificaciones')]",
+      "value": ""
+    }, {
+      "id": "cec02b5a-12d7-485d-8f0e-d62304a0a7d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2.uiHeaderTitle",
+      "value": ""
+    }, {
+      "id": "0b4dde11-224a-4779-b69e-34202c300773",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/notifications",
+      "value": ""
+    }, {
+      "id": "5da7ef41-86c4-4f5e-923f-0c3ff367e0f8",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@id='u_0_x']/div/ul/li/div/ul/li[2]/div/a",
+      "value": ""
+    }, {
+      "id": "b177cbc4-e955-44a3-ab14-34897d5b9232",
+      "comment": "",
+      "command": "click",
+      "target": "css=div._18qh",
+      "value": ""
+    }, {
+      "id": "b5d689ca-9ad8-4780-94fb-5973727067b5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a.mls",
+      "value": ""
+    }, {
+      "id": "d1e32eef-9978-4715-9797-5bc1ff93be67",
+      "comment": "",
+      "command": "click",
+      "target": "css=a._33e._1_0e",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56a0fc26-49ed-4560-8585-113e74d4129b",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.seleniumhq.org/", "https://www.7-eleven.com.mx/contacto.html", "https://www.oxxo.com/", "https://www.laparisina.mx/quejas-y-sugerencias/", "http://www.facebook.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
